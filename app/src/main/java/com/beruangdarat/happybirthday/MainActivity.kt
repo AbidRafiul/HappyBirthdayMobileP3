@@ -41,14 +41,12 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GreetingText(
+                    GreetingImage(
                         message = stringResource(R.string.happy_birthday_abid_text),
                         from = stringResource(R.string.from_riyang_text),
-                        modifier = Modifier.padding(8.dp)
                     )
-
-
                 }
+
             }
         }
     }
